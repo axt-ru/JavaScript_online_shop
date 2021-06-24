@@ -1,0 +1,52 @@
+/* 1. Добавьте стили для верхнего меню, товара, списка товаров и кнопки вызова корзины. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: rgb(241, 195, 139);
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-cart {
+
+    /* margin: 40px auto; */
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product-item {
+    margin: 0 50px;
+}
+
+img {
+    height: 250px;
+}
+
+.buy-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.summ {
+    padding: 20px 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
